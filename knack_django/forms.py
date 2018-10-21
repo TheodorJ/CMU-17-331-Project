@@ -2,15 +2,15 @@ from django import forms
 
 class CreateAccountForm(forms.Form):
     create_fname = forms.CharField(label='Name', max_length=100,
-                                widget=forms.TextInput(attrs={'placeholder': 'Jack Sparrow',
+                                widget=forms.TextInput(attrs={'placeholder': 'Name',
                                                               'class':       'text-input',
                                                               'size':        '50%'}))
     create_name = forms.CharField(label='Username', max_length=100,
-                                widget=forms.TextInput(attrs={'placeholder': 'yisdarumgone',
+                                widget=forms.TextInput(attrs={'placeholder': 'Username',
                                                               'class':       'text-input',
                                                               'size':        '50%'}))
     create_email = forms.CharField(label='Email', max_length=100,
-                                widget=forms.TextInput(attrs={'placeholder': 'We won\'t use it now, but maybe later',
+                                widget=forms.TextInput(attrs={'placeholder': 'Should you use your real email here?',
                                                               'class':       'text-input',
                                                               'size':        '50%'}))
     create_pswd = forms.CharField(label='Password', max_length=100,
@@ -26,7 +26,7 @@ class CreateAccountForm(forms.Form):
 
 class LoginForm(forms.Form):
     login_name = forms.CharField(label='Username', max_length=100,
-                                widget=forms.TextInput(attrs={'placeholder': 'BilboMcSwaggins',
+                                widget=forms.TextInput(attrs={'placeholder': 'Username',
                                                               'class':       'text-input',
                                                               'size':        '50%'}))
     login_pswd = forms.CharField(label='Password', max_length=100,

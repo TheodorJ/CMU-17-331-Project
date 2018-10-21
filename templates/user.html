@@ -4,15 +4,6 @@
 <html style="height: 100%;">
 <link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.png' %}"/>
 <head>
-  <!-- HACK ALERT: If the above block doesn't exist (i.e. a page that extends
-  this one doesn't define it) The "Lightning Soup .." is the only thing that
-  shows. Otherwise, the title is too long and won't fully display on a browser
-  tab-->
-<title>
-  {% block page_title %}
-  {% endblock %}
-  Lightning Soup -- {{ user.username }}
-</title>
 </head>
 <body style="height: 100%; margin: 0px;">
   <style>
