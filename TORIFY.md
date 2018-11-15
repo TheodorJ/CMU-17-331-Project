@@ -14,6 +14,7 @@
   ```
 2.a) Start tor:
    `nohup tor &`
+
 3. Add hostname (from your directory in 2) to `ALLOWED_HOSTS` in `settings.py`
 
   `cat <dir>/hostname`
