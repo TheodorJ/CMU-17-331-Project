@@ -10,8 +10,9 @@
 
   ```
   HiddenServiceDir <some directory with non-root access>
-  HiddenServicePort 80 127.0.0.1:<port>
+  HiddenServicePort 80 127.0.0.1:<port> # NOT port 80
   ```
+
 2.a) Start tor:
    `nohup tor &`
 
