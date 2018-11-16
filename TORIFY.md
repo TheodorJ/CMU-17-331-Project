@@ -28,3 +28,5 @@
 ## Additional Precautions
  - Don't use crappy passwords
  - Think about the ways people can attack your service. How can you stop those attacks?
+    - This is a Django server, and you're running it in production. Make sure you take the necessary extra steps:
+    - https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/ 
