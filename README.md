@@ -6,14 +6,17 @@ You will need to install Python3.6 to host an instance, along with several packa
 
 First, install Python and Pip:
 
-`sudo apt-get install python3 python3-pip`
+`apt-get install python3 python3-pip`
 
 Next, install relevant Python packages:
 
-`sudo pip3 install Django==2.0.7`
+`pip3 install Django==2.0.7`
+
+If Pip threw a locale error, try running `export LC_ALL=C`
+
 Django version 2.0.7 is necessary, since version 2.1 does not work with the default installation of Python3.
 
-`sudo pip3 install gunicorn whitenoise dj-database-url psycopg2-binary django-heroku ipfsapi`
+`pip3 install gunicorn whitenoise dj-database-url psycopg2-binary django-heroku ipfsapi`
 
 After this succeeds, installation should be complete.
 
