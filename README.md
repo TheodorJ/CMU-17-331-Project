@@ -26,4 +26,8 @@ This will run the server on port 8000, and allow connections from other machines
 
 Create an admin account:
 
-`python manage.py createsuperuser`
+`python3 manage.py migrate`
+
+and then:
+
+`python3 manage.py createsuperuser`
