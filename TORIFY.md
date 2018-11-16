@@ -2,7 +2,7 @@
 
 1. Install Tor
 
-  `sudo apt-get install tor`
+  `apt-get install tor`
 
 2. Change hidden service port
 
