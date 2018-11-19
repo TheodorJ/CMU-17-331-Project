@@ -21,7 +21,7 @@ Django version 2.0.7 is necessary, since version 2.1 does not work with the defa
 After this succeeds, installation should be complete.
 
 You can then start the server with the command:
-`python3 manage.py runserver 0.0.0.0:8000`
+`python3 manage.py runserver`
 This will run the server on port 8000, and allow connections from other machines as long as your hostname has been added to `ALLOWED_HOSTS` in `knack_django/settings.py`.
 
 Create an admin account:
