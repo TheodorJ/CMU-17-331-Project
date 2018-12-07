@@ -33,4 +33,4 @@
  - Think about the ways people can attack your service. How can you stop those attacks?
     - This is a Django server, and you're running it in production. Make sure you take the necessary extra steps:
     - https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
- - Make sure your server is not running on the clearnet! If people can access your hidden service on the clearnet, it is definitive proof that you are the one running that hidden service.
+ - Do not run the server on the clearnet.
